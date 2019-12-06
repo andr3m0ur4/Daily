@@ -1,0 +1,105 @@
+/*
+**** Layout ****
+*/
+#principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#rodape {
+    padding: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+/*
+**** Formatações em geral ****
+*/
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: medium;
+}
+
+h1, h2 {
+    font-weight: normal;
+    color: #CC6600;
+    border-bottom: thin dotted #888888;
+}
+
+h1 {
+    font-size: 1.7em;    
+}
+
+h2 {
+    font-size: 1.3em;    
+}
+
+blockquote {
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border: thin solid black;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+.tabela {
+    caption-side: top;
+}
+
+table table {
+    margin: 0 auto;
+    width: 75%;
+}
+
+td, th {
+    border: thin dotted gray;
+    padding: 5px;    
+}
+
+caption {
+    font-style: italic;
+    padding-top: 8px;
+}
+
+.descricao {
+    padding-top: 0;
+    padding-bottom: 8px;
+}
+
+th {
+    background-color: #CC6600;
+}
+
+.cordacelula {
+    background-color: #FCBA7A;
+}
+
+table table th {
+    background-color: white;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+li {
+    list-style-image: url('../imagem/backpack.gif');
+    padding-top: 5px;
+    margin-left: 20px;
+}
