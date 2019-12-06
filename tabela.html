@@ -1,78 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta charset="UTF-8">
         <style type="text/css">
             td, th{
                 border: 1px solid black;
             }
         </style>
-        <title>Teste da Tabela do Tonico</title>                
+        <title>Teste da Tabela do Tonico</title>
+        <link rel="stylesheet" type="text/css" href="css/diario.css">
     </head>
     <body>
-        <table summary="Esta tabela armazena dados sobre as cidades que eu visitei em minhas
-               viagens. Eu inclui as datas em que estive em cada cidade, a temperatura quando
-               eu estava la e a altitude e a populacao de cada cidade. Tambem inclui a 
-               classificacao dos restaurantes em que almocei, em uma escala de 1 a 5.">
-            <caption>
-                As cidades que eu visitei em minhas viagens pelo Brasil em um Segway
-            </caption>
-            <tr>
-                <th>Cidade</th>
-                <th>Data</th>
-                <th>Temperatura</th>
-                <th>Altitude</th>
-                <th>Populacao</th>
-                <th>Classificacao do Restaurante</th>
-            </tr>
-            <tr>
-                <td>Piripiri, PI</td>
-                <td>15 de Junho</td>
-                <td>23</td>
-                <td>156 m</td>
-                <td>61.965</td>
-                <td>4/5</td>
-            </tr>
-            <tr>
-                <td>Chao de Alegria, PE</td>
-                <td>25 de Junho</td>
-                <td>26</td>
-                <td>160 m</td>
-                <td>15.421</td>
-                <td>3/5</td>
-            </tr>
-            <tr>
-                <td>Conquista d'Oeste, MT</td>
-                <td>10 de Julho</td>
-                <td>33</td>
-                <td>1.000 m</td>
-                <td>2.292</td>
-                <td>3/5</td>
-            </tr>
-            <tr>
-                <td>Feliz Natal, MT</td>
-                <td>23 de Julho</td>
-                <td>39</td>
-                <td>370 m</td>
-                <td>9.132</td>
-                <td>4/5</td>
-            </tr>
-            <tr>
-                <td>Bofete, SP</td>
-                <td>9 de Agosto</td>
-                <td>34</td>
-                <td>576 m</td>
-                <td>8.415</td>
-                <td>5/5</td>
-            </tr>
-            <tr>
-                <td>Passa e Fica, RN</td>
-                <td>18 de Agosto</td>
-                <td>28</td>
-                <td>189 m</td>
-                <td>9.460</td>
-                <td>3/5</td>
-            </tr>
-        </table>
+
+        <div id="principal">
+            <table class="tabela" summary="Esta tabela armazena dados sobre as cidades que eu visitei em minhas
+                   viagens. Eu inclui as datas em que estive em cada cidade, a temperatura quando
+                   eu estava la e a altitude e a populacao de cada cidade. Tambem inclui a 
+                   classificacao dos restaurantes em que almocei, em uma escala de 1 a 5.">
+                <caption class="descricao">
+                    As cidades que eu visitei em minhas viagens pelo Brasil em um Segway
+                </caption>
+                <tr>
+                    <th>Cidade</th>
+                    <th>Data</th>
+                    <th>Temperatura</th>
+                    <th>Altitude</th>
+                    <th>Populacao</th>
+                    <th>Classificacao do Restaurante</th>
+                </tr>
+                <tr>
+                    <td>Piripiri, PI</td>
+                    <td align="center">15 de Junho</td>
+                    <td align="center">23</td>
+                    <td align="right">156 m</td>
+                    <td align="right">61.965</td>
+                    <td align="center">4/5</td>
+                </tr>
+                <tr class="cordacelula">
+                    <td>Chao de Alegria, PE</td>
+                    <td align="center">25 de Junho</td>
+                    <td align="center">26</td>
+                    <td align="right">160 m</td>
+                    <td align="right">15.421</td>
+                    <td align="center">3/5</td>
+                </tr>
+                <tr>
+                    <td>Conquista d'Oeste, MT</td>
+                    <td align="center">10 de Julho</td>
+                    <td align="center">33</td>
+                    <td align="right">1.000 m</td>
+                    <td align="right">2.292</td>
+                    <td align="center">3/5</td>
+                </tr>
+                <tr class="cordacelula">
+                    <td>Feliz Natal, MT</td>
+                    <td align="center">23 de Julho</td>
+                    <td align="center">39</td>
+                    <td align="right">370 m</td>
+                    <td align="right">9.132</td>
+                    <td align="center">4/5</td>
+                </tr>
+                <tr>
+                    <td>Bofete, SP</td>
+                    <td align="center">9 de Agosto</td>
+                    <td align="center">34</td>
+                    <td align="right">576 m</td>
+                    <td align="right">8.415</td>
+                    <td align="center">5/5</td>
+                </tr>
+                <tr class="cordacelula">
+                    <td>Passa e Fica, RN</td>
+                    <td align="center">18 de Agosto</td>
+                    <td align="center">28</td>
+                    <td align="right">189 m</td>
+                    <td align="right">9.460</td>
+                    <td align="center">3/5</td>
+                </tr>
+            </table>
+        </div>
+
     </body>
 </html>
