@@ -58,6 +58,10 @@ table {
     caption-side: top;
 }
 
+tr:hover {
+    background-color: #f98d20;
+}
+
 table table {
     margin: 0 auto;
     width: 75%;
